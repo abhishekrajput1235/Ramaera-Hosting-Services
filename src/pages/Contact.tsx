@@ -25,8 +25,8 @@ export function Contact() {
   };
 
   return (
-    <div className="bg-slate-950">
-      <section className="bg-gradient-to-br from-slate-900 via-cyan-900 to-slate-900 text-white py-16">
+    <div className="">
+      <section className=" text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Get In Touch
@@ -127,7 +127,7 @@ export function Contact() {
                       onChange={handleChange}
                       required
                       rows={6}
-                      className="w-full px-4 py-3 border border-cyan-500/30 rounded-lg focus:ring-2 focus:ring-cyan-500 focus:border-transparent resize-none"
+                      className="w-full px-4 py-3 border border-cyan-500/30 rounded-lg focus:ring-2 focus:ring-cyan-500 focus:border-transparent resize-none bg-transparent"
                       placeholder="Tell us how we can help you..."
                     />
                   </div>

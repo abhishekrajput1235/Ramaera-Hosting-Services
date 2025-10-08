@@ -3,8 +3,8 @@ import { CheckCircle } from 'lucide-react';
 
 export function Calculator() {
   return (
-    <div className="bg-slate-950 min-h-screen">
-      <section className="bg-gradient-to-br from-slate-900 via-cyan-900 to-slate-900 text-white py-16">
+    <div className=" min-h-screen ">
+      <section className=" text-white py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
@@ -19,7 +19,7 @@ export function Calculator() {
 
       <PlanCalculator />
 
-      <section className="py-16 bg-slate-900">
+      <section className="py-16 ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-white mb-8 text-center">
             Why Choose Custom Configuration?
@@ -35,7 +35,7 @@ export function Calculator() {
               '99.9% uptime SLA guarantee',
               'Deploy in under 5 minutes'
             ].map((feature, index) => (
-              <div key={index} className="flex items-start space-x-3 bg-slate-950 p-4 rounded-lg border border-cyan-500/30">
+              <div key={index} className="flex items-center justify-center space-x-3 bg-slate-950 p-4 rounded-lg border-2 border-cyan-500">
                 <CheckCircle className="h-5 w-5 text-green-500 flex-shrink-0 mt-0.5" />
                 <span className="text-slate-300">{feature}</span>
               </div>

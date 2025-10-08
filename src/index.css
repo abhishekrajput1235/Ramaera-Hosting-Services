@@ -12,6 +12,18 @@
   }
 }
 
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("../src/assets/fonts/myfont.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "MyCustomFont", sans-serif;
+}
+
+
 @layer utilities {
   @keyframes fadeIn {
     from {

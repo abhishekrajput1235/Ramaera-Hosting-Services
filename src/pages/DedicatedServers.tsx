@@ -46,8 +46,8 @@ export function DedicatedServers() {
   ];
 
   return (
-    <div className="bg-slate-900">
-      <section className="bg-gradient-to-br from-slate-950 via-cyan-950 to-slate-950 text-white py-20">
+    <div className="">
+      <section className=" text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
@@ -60,7 +60,7 @@ export function DedicatedServers() {
         </div>
       </section>
 
-      <section className="py-16 bg-slate-900">
+      <section className="py-16 ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
@@ -165,7 +165,7 @@ export function DedicatedServers() {
         </div>
       </section>
 
-      <section className="py-16 bg-gradient-to-br from-slate-900 via-cyan-900 to-slate-900 text-white">
+      <section className="py-16  text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Need Custom Configuration?</h2>
           <p className="text-xl text-cyan-100 mb-8">
@@ -173,7 +173,7 @@ export function DedicatedServers() {
           </p>
           <Link
             to="/contact"
-            className="inline-block px-8 py-4 bg-white text-cyan-600 rounded-lg font-semibold hover:bg-cyan-50 transition border-2 border-cyan-400"
+            className="inline-block px-8 py-4  text-cyan-600 rounded-lg font-semibold hover:bg-cyan-5 transition border-2 border-cyan-400"
           >
             Contact Sales Team
           </Link>

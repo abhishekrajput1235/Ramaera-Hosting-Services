@@ -525,7 +525,7 @@ export function Pricing() {
         billingCycles={billingCycles}
       />
 
-      <section className="bg-gradient-to-br from-slate-900 via-cyan-900 to-slate-900 text-white py-20">
+      <section className=" text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
@@ -786,7 +786,7 @@ export function Pricing() {
         </div>
       </section>
 
-      <section className="py-16 bg-gradient-to-br from-slate-900 via-cyan-900 to-slate-900 text-white">
+      <section className="py-16  text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Need a Custom Solution?
@@ -799,7 +799,7 @@ export function Pricing() {
           </p>
           <Link
             to="/contact"
-            className="inline-block px-8 py-4 bg-white text-cyan-600 rounded-lg font-bold hover:bg-cyan-50 transition transform hover:scale-105 shadow-lg border-2 border-cyan-400"
+            className="inline-block px-8 py-4  text-cyan-600 rounded-lg font-bold  transition transform hover:scale-105 shadow-lg border-2 border-cyan-400"
           >
             Contact Sales Team
           </Link>

@@ -18,9 +18,12 @@ import { Overview } from './pages/dashboard/Overview';
 import { MyServers } from './pages/dashboard/MyServers';
 
 import { AdminDashboard } from './pages/admin/AdminDashboard';
+import SplashCursor from './components/SplashCurser';
 
 function App() {
   return (
+    <>
+    <SplashCursor/>
     <BrowserRouter>
       <AuthProvider>
         <TawkToWidget hideOnRoutes={['/login', '/signup']} />
@@ -72,6 +75,7 @@ function App() {
         </Routes>
       </AuthProvider>
     </BrowserRouter>
+    </>
   );
 }
 

@@ -44,12 +44,12 @@ export function Home() {
 
   return (
     <div className="bg-slate-950">
-      <section className="relative bg-gradient-to-br from-slate-900 via-cyan-900 to-slate-900 text-white py-20 md:py-32 overflow-hidden">
+      <section className="relative  text-white py-20 md:py-32 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0" style={{
+          {/* <div className="absolute inset-0" style={{
             backgroundImage: 'radial-gradient(circle at 1px 1px, white 1px, transparent 0)',
             backgroundSize: '40px 40px'
-          }}></div>
+          }}></div> */}
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -69,7 +69,7 @@ export function Home() {
               </Link>
               <Link
                 to="/signup"
-                className="px-8 py-4 bg-slate-800 text-cyan-400 rounded-lg font-semibold hover:bg-slate-700 transition border-2 border-cyan-500 hover:shadow-lg hover:shadow-cyan-500/30"
+                className="px-8 py-4  rounded-lg font-semibold hover:bg-slate-700 transition border-2 border-cyan-500 hover:shadow-lg"
               >
                 Get Started Free
               </Link>
@@ -78,7 +78,7 @@ export function Home() {
         </div>
       </section>
 
-      <section className="py-16 bg-slate-900">
+      <section className="py-16 bg-white/5 backdrop-blur-md ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
@@ -108,7 +108,7 @@ export function Home() {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="bg-slate-900 p-8 rounded-xl shadow-lg hover:shadow-cyan-500/20 transition border border-cyan-500/30 backdrop-blur-sm"
+                className=" p-8 rounded-xl shadow-lg hover:shadow-cyan-500/20 transition border-2 border-cyan-500 backdrop-blur-sm"
               >
                 <div className="inline-flex items-center justify-center w-14 h-14 bg-cyan-500/20 rounded-lg mb-4">
                   <feature.icon className="h-7 w-7 text-cyan-400" />
@@ -125,7 +125,7 @@ export function Home() {
         </div>
       </section>
 
-      <section className="py-20 bg-slate-900">
+      <section className="py-20 ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
@@ -224,7 +224,7 @@ export function Home() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-slate-900 via-cyan-900 to-slate-900 text-white">
+      <section className="py-20  text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Get Started?

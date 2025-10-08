@@ -107,7 +107,7 @@ export function Header() {
                 </Link>
                 <Link
                   to="/signup"
-                  className="px-4 py-2 bg-gradient-to-r from-cyan-500 to-teal-500 text-white rounded-lg hover:from-cyan-400 hover:to-teal-400 transition shadow-lg shadow-cyan-500/50"
+                  className="px-4 py-1  text-white rounded-lg hover:from-cyan-400 hover:to-teal-400 transition shadow-lg border-2 border-cyan-500"
                 >
                   Get Started
                 </Link>

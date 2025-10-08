@@ -57,8 +57,8 @@ export function Solutions() {
   };
 
   return (
-    <div className="bg-slate-950">
-      <section className="bg-gradient-to-br from-slate-900 via-cyan-900 to-slate-900 text-white py-20">
+    <div className="">
+      <section className=" text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             Solutions for Every Industry
@@ -77,7 +77,7 @@ export function Solutions() {
               return (
                 <div
                   key={index}
-                  className="bg-slate-900 rounded-xl shadow-md hover:shadow-xl hover:shadow-cyan-500/30 transition border-2 border-cyan-500 overflow-hidden group"
+                  className=" rounded-xl shadow-md hover:shadow-xl hover:shadow-cyan-500/30 transition border-2 border-cyan-500 overflow-hidden group"
                 >
                   <div className="p-8">
                     <div className={`inline-flex items-center justify-center w-16 h-16 ${colors.bg} rounded-lg mb-4 group-hover:scale-110 transition`}>
@@ -111,7 +111,7 @@ export function Solutions() {
         </div>
       </section>
 
-      <section className="py-20 bg-slate-900">
+      <section className="py-20 ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
@@ -176,7 +176,7 @@ export function Solutions() {
         </div>
       </section>
 
-      <section className="py-16 bg-gradient-to-br from-slate-900 via-cyan-900 to-slate-900 text-white">
+      <section className="py-16  text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">
             Ready to Transform Your Business?
@@ -186,7 +186,7 @@ export function Solutions() {
           </p>
           <Link
             to="/contact"
-            className="inline-block px-8 py-4 bg-white text-cyan-400 rounded-lg font-semibold hover:bg-cyan-400 transition"
+            className="inline-block px-8 py-4 text-cyan-400 border-2 border-cyan-500 rounded-lg font-semibold hover:border-4 transition"
           >
             Get Started Today
           </Link>
